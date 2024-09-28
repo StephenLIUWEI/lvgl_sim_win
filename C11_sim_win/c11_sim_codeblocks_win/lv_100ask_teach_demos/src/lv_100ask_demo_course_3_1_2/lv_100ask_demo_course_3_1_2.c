@@ -43,12 +43,13 @@ void lv_100ask_demo_course_3_1_2(void)
     /* 创建一个基础对象 label */
     lv_obj_t * label = lv_label_create(lv_scr_act());                           // 创建一个label部件(对象),他的父对象是活动屏幕对象
 
-    //LV_FONT_DECLARE(lv_font_source_han_sans_bold_20);                         // 声明外部字库
+    LV_FONT_DECLARE(LV_FONT_NORMAL_24);                         // 声明外部字库
+
 
     //lv_obj_set_style_text_font(label, &lv_font_simsun_16_cjk, 0);             // 使用内置的 cjk 字库
-    //lv_obj_set_style_text_font(label, &lv_font_source_han_sans_bold_20, 0);   // 使用自定义的字库
+    lv_obj_set_style_text_font(label, &LV_FONT_NORMAL_24, 0);   // 使用自定义的字库
 
-    //lv_label_set_text(label, "百问网嵌入式abcd123.,<>';'[]ABCD");             // 显示文字（注意当前文件文本的编码格式，要使用 utf-8 编码）
+    lv_label_set_text(label, "可孚医疗股份有限公司abcd123.,<>';'[]ABCD");             // 显示文字（注意当前文件文本的编码格式，要使用 utf-8 编码）
 
 }
 

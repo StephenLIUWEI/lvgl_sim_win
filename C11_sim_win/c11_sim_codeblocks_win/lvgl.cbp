@@ -1506,6 +1506,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/extra/widgets/win/lv_win.h" />
+		<Unit filename="lvgl/src/font/LV_FONT_NORMAL_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/font/lv_font.c">
 			<Option compilerVar="CC" />
 		</Unit>

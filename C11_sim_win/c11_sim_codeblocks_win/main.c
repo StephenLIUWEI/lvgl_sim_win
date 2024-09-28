@@ -55,7 +55,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLi
     lv_init();
 
     /*Initialize the HAL for LittlevGL*/
-    lv_win32_init(hInstance, SW_SHOWNORMAL, 1024, 600, NULL);
+    lv_win32_init(hInstance, SW_SHOWNORMAL, 800, 480, NULL);
 
     /*Output prompt information to the console, you can also use printf() to print directly*/
     LV_LOG_USER("LVGL initialization completed!");
@@ -92,14 +92,14 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLi
     //lv_100ask_demo_course_3_14_2();   // 组件(widgets)： 按钮矩阵(lv_btnmatrix)和按钮(lv_btn)的对比(显示多个按钮谁更轻量级？)
 
     //lv_100ask_demo_course_6_1_1();    // 第三方库(lv_fs)：通过LVGL文件系统接口统一不同的文件系统并读取文件、读取目录内容
-    //lv_100ask_demo_course_6_4_1();    // 第三方库(freeType)：通过freeType显示字体 (需要先在 lv_conf.h 中打开  LV_USE_FREETYPE)
+    lv_100ask_demo_course_6_4_1();    // 第三方库(freeType)：通过freeType显示字体 (需要先在 lv_conf.h 中打开  LV_USE_FREETYPE)
 
     //lv_100ask_demo_course_x_1_1();    // 拓展高级学习：基于FontAwesome 添加新图标SYMBOLS，进入函数查看详细说明 (需要先在 lv_conf.h 中打开  LV_USE_FREETYPE)
 
 
     ////////////////////////////////////////////////////////////
 
-    demo_page1();
+    //demo_page1();
 
     ////////////////////////////////////////////////////////////
 

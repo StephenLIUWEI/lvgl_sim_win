@@ -1,10 +1,10 @@
 /**
  ******************************************************************************
  * @file    lv_100ask_demo_course_2_1_1.c
- * @author  鐧鹃棶绉戞妧
+ * @author  百问科技
  * @version V1.0
  * @date    2021-12-02
- * @brief	2_1_1璇剧殑璇惧爞浠ｇ爜
+ * @brief	2_1_1课的课堂代码
  ******************************************************************************
  * Change Logs:
  * Date           Author          Notes
@@ -12,7 +12,7 @@
  ******************************************************************************
  * @attention
  *
- * Copyright (C) 2008-2021 娣卞湷鐧鹃棶缃戠鎶�鏈夐檺鍏徃<https://www.100ask.net/>
+ * Copyright (C) 2008-2021 深圳百问网科技有限公司<https://www.100ask.net/>
  * All rights reserved
  *
  ******************************************************************************
@@ -42,8 +42,8 @@
 void lv_100ask_demo_course_2_1_1(void)
 {
     lv_obj_t * obj = lv_obj_create(lv_scr_act());
-    //lv_obj_set_size(obj, LV_PCT(20), LV_PCT(10));
-    lv_obj_set_size(obj, LV_PCT(40), LV_PCT(20));
+    lv_obj_set_size(obj, 700, 450);
+    //lv_obj_set_size(obj, LV_PCT(40), LV_PCT(20));
     lv_obj_align(obj, LV_ALIGN_CENTER, 0, 0);
 
     lv_obj_t * label = lv_label_create(obj);

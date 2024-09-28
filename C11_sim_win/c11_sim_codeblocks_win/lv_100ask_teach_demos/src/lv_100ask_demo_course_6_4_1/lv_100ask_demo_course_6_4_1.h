@@ -1,5 +1,4 @@
-#ifndef LV_100ASK_DEMO_COURSE_6_4_1_H
-#define LV_100ASK_DEMO_COURSE_6_4_1_H
+
 
 #ifdef __cplusplus
 extern "C" {
@@ -26,7 +25,7 @@ extern "C" {
 // 需要先在 lv_conf.h 中打开  LV_USE_FREETYPE
 void lv_100ask_demo_course_6_4_1(void);
 
-
+void lv_100ask_demo_course_6_4_1(void);
 /**********************
  *      MACROS
  **********************/
@@ -35,7 +34,7 @@ void lv_100ask_demo_course_6_4_1(void);
 } /* extern "C" */
 #endif
 
-#endif /* LV_100ASK_DEMO_COURSE_6_4_1_H */
+
 
 
 
