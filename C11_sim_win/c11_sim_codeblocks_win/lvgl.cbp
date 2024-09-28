@@ -402,6 +402,10 @@
 		<Unit filename="lv_drivers/win32drv/win32drv.h" />
 		<Unit filename="lv_drivers/win_drv.h" />
 		<Unit filename="lv_drv_conf.h" />
+		<Unit filename="lv_my_demo/inc/demo_page1.h" />
+		<Unit filename="lv_my_demo/src/demo_page1.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c">
 			<Option compilerVar="CC" />
 		</Unit>

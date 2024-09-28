@@ -18,6 +18,11 @@
 #include <windows.h>
 
 
+////////////////////////////////
+#include "lv_my_demo/inc/demo_page1.h"
+///////////////////////////////
+
+
 /*********************
  *      DEFINES
  *********************/
@@ -63,7 +68,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLi
 	//lv_100ask_demo_course_2_2_3();    // 基础对象的位置(position)
 	//lv_100ask_demo_course_2_2_4();    // 基础对象的盒子模型(border-box)
 	//lv_100ask_demo_course_2_2_5();    // 基础对象的样式(styles)
-	lv_100ask_demo_course_2_2_6();    // 基础对象的事件(events)、事件冒泡
+	//lv_100ask_demo_course_2_2_6();    // 基础对象的事件(events)、事件冒泡
 
 	//lv_100ask_demo_course_3_1_1();    // 组件(widgets)： 标签(label)的用法
 	//lv_100ask_demo_course_3_1_2();    // 组件(widgets)： 标签(label)，显示中文
@@ -91,6 +96,12 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLi
 
     //lv_100ask_demo_course_x_1_1();    // 拓展高级学习：基于FontAwesome 添加新图标SYMBOLS，进入函数查看详细说明 (需要先在 lv_conf.h 中打开  LV_USE_FREETYPE)
 
+
+    ////////////////////////////////////////////////////////////
+
+    demo_page1();
+
+    ////////////////////////////////////////////////////////////
 
     while(!lv_win32_quit_signal) {
         /* Periodically call the lv_task handler.
